@@ -6,3 +6,11 @@
 #logo {
   absolute: top 5px left 10px
 }
+
+#logo {
+  relative: top left
+}
+
+#logo {
+  fixed: top left
+}

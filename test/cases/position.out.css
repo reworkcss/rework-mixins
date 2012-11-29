@@ -9,3 +9,15 @@
   top: 5px;
   left: 10px
 }
+
+#logo {
+  position: relative;
+  top: 0;
+  left: 0
+}
+
+#logo {
+  position: fixed;
+  top: 0;
+  left: 0
+}
