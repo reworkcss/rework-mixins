@@ -80,7 +80,7 @@ button {
 
 ## absolute | relative | fixed
 
-  `mix ins.{absolute,relative,fixed}`:
+  `mixins.{absolute,relative,fixed}`:
 
 ```css
 #logo {
