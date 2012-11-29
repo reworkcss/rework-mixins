@@ -1,3 +1,3 @@
 
-exports.borderRadius = require('./lib/border-radius');
-exports.ellipsis = require('./lib/ellipsis');
+exports['border-radius'] = require('./lib/border-radius');
+exports['overflow'] = require('./lib/ellipsis');
