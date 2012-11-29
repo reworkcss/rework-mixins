@@ -32,17 +32,42 @@ var css = rework('some css here')
 ## overflow: ellipsis
 
   `mixins.overflow`:
-  
+
+```css
+h1 {
+  overflow: ellipsis
+}
+```
+
+yields:
+
+```css
+h1 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis
+}
+```
 
 ## border-radius
 
   `mixins.border-radius`:
 
 ```css
-border-radius: 5px
-border-radius: 5px 10px
-border-radius: top 5px
-border-radius: top 5px left 10px
+button {
+  border-radius: top 5px bottom 10px
+}
+```
+
+yields:
+
+```css
+button {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
 ```
 
 ## License 
