@@ -1,7 +1,7 @@
 
 # rework-mixins
 
-  Rework CSS mixins
+  [Rework](https://github.com/visionmedia/rework) CSS mixins.
 
 ## Example
 
