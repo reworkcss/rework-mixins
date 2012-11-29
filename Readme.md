@@ -70,6 +70,42 @@ button {
 }
 ```
 
+## absolute | relative | fixed
+
+  `mix ins.{absolute,relative,fixed}`:
+
+```css
+#logo {
+  absolute: top left
+}
+```
+
+yields:
+
+```css
+#logo {
+  position: absolute;
+  top: 0;
+  left: 0
+}
+```
+
+```css
+#logo {
+  fixed: top 5px left 10px
+}
+```
+
+yields:
+
+```css
+#logo {
+  position: fixed;
+  top: 5px;
+  left: 10px
+}
+```
+
 ## License 
 
   MIT
