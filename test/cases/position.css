@@ -2,3 +2,7 @@
 #logo {
   absolute: top left
 }
+
+#logo {
+  absolute: top 5px left 10px
+}
