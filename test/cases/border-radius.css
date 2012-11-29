@@ -1,0 +1,15 @@
+button {
+  border-radius: 5px;
+}
+
+button {
+  border-radius: top 5px;
+}
+
+button {
+  border-radius: left 5px right 2px;
+}
+
+button {
+  border-radius: top 5px bottom 10px;
+}
