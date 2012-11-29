@@ -29,6 +29,14 @@ var css = rework('some css here')
   .toString();
 ```
 
+## Mixins
+
+  - [overflow: ellipsis](#overflow-ellipsis)
+  - [border-radius](#border-radius)
+  - [absolute](#absolute--relative--fixed)
+  - [relative](#absolute--relative--fixed)
+  - [fixed](#absolute--relative--fixed)
+
 ## overflow: ellipsis
 
   `mixins.overflow`:
