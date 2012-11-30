@@ -4,3 +4,4 @@ exports['overflow'] = require('./lib/ellipsis');
 exports['absolute'] = require('./lib/absolute');
 exports['relative'] = require('./lib/relative');
 exports['fixed'] = require('./lib/fixed');
+exports['opacity'] = require('./lib/opacity');
