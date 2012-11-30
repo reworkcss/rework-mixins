@@ -36,6 +36,37 @@ var css = rework('some css here')
   - [absolute](#absolute--relative--fixed)
   - [relative](#absolute--relative--fixed)
   - [fixed](#absolute--relative--fixed)
+  - [opacity](#opacity-n)
+
+## opacity: n
+
+  Add microsoft junk:
+
+```css
+a {
+  opacity: 0.5;
+}
+
+ul {
+  opacity: 1 !important;
+}
+```
+
+yields:
+
+```css
+a {
+  opacity: 0.5;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  filter: alpha(opacity=50)
+}
+
+ul {
+  opacity: 1 !important;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100) !important;
+  filter: alpha(opacity=100) !important
+}
+```
 
 ## overflow: ellipsis
 
