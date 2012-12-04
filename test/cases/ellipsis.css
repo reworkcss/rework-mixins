@@ -1,3 +1,7 @@
 h1 {
   overflow: ellipsis;
 }
+
+h2 {
+  overflow: hidden;
+}
