@@ -1,5 +1,10 @@
 
 #logo {
+  absolute: bottom 0 right -10px;
+  z-index: 10
+}
+
+#logo {
   absolute: top left
 }
 
