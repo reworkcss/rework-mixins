@@ -10,5 +10,8 @@
     "should": "*",
     "rework": "*"
   },
-  "main": "index"
+  "main": "index",
+  "scripts": {
+    "test": "mocha --require should --reporter spec"
+  }
 }
