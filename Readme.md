@@ -145,6 +145,32 @@ yields:
 }
 ```
 
+## size
+
+  `mixins.size`:
+
+```css
+#logo {
+  size: 100px 50px
+}
+#icon {
+  size: 32px
+}
+```
+
+yields:
+
+```css
+#logo {
+  width: 100px;
+  height: 50px
+}
+#icon {
+  width: 32px;
+  height: 32px
+}
+```
+
 ## License 
 
   MIT
