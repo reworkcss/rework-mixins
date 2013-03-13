@@ -171,6 +171,6 @@ yields:
 }
 ```
 
-## License 
+## License
 
   MIT
