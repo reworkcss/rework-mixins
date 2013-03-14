@@ -37,6 +37,7 @@ var css = rework('some css here')
   - [relative](#absolute--relative--fixed)
   - [fixed](#absolute--relative--fixed)
   - [opacity](#opacity-n)
+  - [size](#size)
 
 ## opacity: n
 
