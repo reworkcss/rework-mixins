@@ -1,4 +1,10 @@
 
+1.0.3 / 2013-05-10 
+==================
+
+  * add size mixin
+  * fix position 0 values, make them strings
+
 1.0.2 / 2012-12-07
 ==================
 
