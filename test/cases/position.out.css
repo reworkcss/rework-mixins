@@ -2,29 +2,29 @@
   position: absolute;
   bottom: 0;
   right: -10px;
-  z-index: 10
+  z-index: 10;
 }
 
 #logo {
   position: absolute;
   top: 0;
-  left: 0
+  left: 0;
 }
 
 #logo {
   position: absolute;
   top: 5px;
-  left: 10px
+  left: 10px;
 }
 
 #logo {
   position: relative;
   top: 0;
-  left: 0
+  left: 0;
 }
 
 #logo {
   position: fixed;
   top: 0;
-  left: 0
+  left: 0;
 }

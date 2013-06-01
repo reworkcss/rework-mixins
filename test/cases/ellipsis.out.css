@@ -1,9 +1,9 @@
 h1 {
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis
+  text-overflow: ellipsis;
 }
 
 h2 {
-  overflow: hidden
+  overflow: hidden;
 }

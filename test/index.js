@@ -18,7 +18,7 @@ describe('should support', function(){
         .use(rework.mixin(mixins))
         .toString();
 
-      css.should.equal(output);
+      css.trim().should.equal(output.trim());
     })
   });
 })
