@@ -1,4 +1,10 @@
 
+1.1.0 / 2013-06-02 
+==================
+
+  * add component support
+  * fix tests for new rework
+
 1.0.3 / 2013-05-10 
 ==================
 
