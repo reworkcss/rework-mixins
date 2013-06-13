@@ -33,6 +33,7 @@ var css = rework('some css here')
 
   - [overflow: ellipsis](#overflow-ellipsis)
   - [border-radius](#border-radius)
+  - [display-flex](#display-flex)
   - [absolute](#absolute--relative--fixed)
   - [relative](#absolute--relative--fixed)
   - [fixed](#absolute--relative--fixed)
@@ -110,6 +111,28 @@ button {
 }
 ```
 
+## display-flex
+
+ Allows you to use `display: flex`:
+
+```css
+.wrapper {
+  display: flex;
+}
+```
+
+ yields:
+
+```css
+.wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+```
+
 ## absolute | relative | fixed
 
   `mixins.{absolute,relative,fixed}`:
@@ -171,6 +194,8 @@ yields:
   height: 32px
 }
 ```
+
+##
 
 ## License
 
