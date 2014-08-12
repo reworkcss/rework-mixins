@@ -1,5 +1,6 @@
 
 var rework = require('rework');
+var mixin = require('rework-plugin-mixin');
 var mixins = require('..');
 var fs = require('fs');
 var path = require('path');
@@ -15,7 +16,7 @@ describe('should support', function(){
 
     it(base, function(){
       var css = rework(input)
-        .use(rework.mixin(mixins))
+        .use(mixin(mixins))
         .toString();
 
       css.trim().should.equal(output.trim());
