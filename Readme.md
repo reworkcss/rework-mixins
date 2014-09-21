@@ -9,10 +9,11 @@
 
 ```js
 var rework = require('rework');
+var rework_mixin = require('rework-plugin-mixin');
 var mixins = require('rework-mixins');
 
 var css = rework('some css here')
-  .use(rework.mixin(mixins))
+  .use(rework_mixin(mixins))
   .toString();
 ```
 
@@ -20,10 +21,11 @@ var css = rework('some css here')
 
 ```js
 var rework = require('rework');
+var rework_mixin = require('rework-plugin-mixin');
 var mixins = require('rework-mixins');
 
 var css = rework('some css here')
-  .use(rework.mixin({
+  .use(rework_mixin({
     overflow: mixins.overflow
   }))
   .toString();
