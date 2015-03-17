@@ -33,42 +33,10 @@ var css = rework('some css here')
 
   - [overflow: ellipsis](#overflow-ellipsis)
   - [border-radius](#border-radius)
-  - [display-flex](#display-flex)
   - [absolute](#absolute--relative--fixed)
   - [relative](#absolute--relative--fixed)
   - [fixed](#absolute--relative--fixed)
-  - [opacity](#opacity-n)
   - [size](#size)
-
-## opacity: n
-
-  Add microsoft junk:
-
-```css
-a {
-  opacity: 0.5;
-}
-
-ul {
-  opacity: 1 !important;
-}
-```
-
-yields:
-
-```css
-a {
-  opacity: 0.5;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
-  filter: alpha(opacity=50)
-}
-
-ul {
-  opacity: 1 !important;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100) !important;
-  filter: alpha(opacity=100) !important
-}
-```
 
 ## overflow: ellipsis
 
@@ -108,28 +76,6 @@ button {
   border-top-right-radius: 5px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-}
-```
-
-## display-flex
-
- Allows you to use `display: flex`:
-
-```css
-.wrapper {
-  display: flex;
-}
-```
-
- yields:
-
-```css
-.wrapper {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
 }
 ```
 
